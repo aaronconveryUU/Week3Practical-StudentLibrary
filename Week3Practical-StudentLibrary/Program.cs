@@ -12,5 +12,12 @@ class Program
         Console.WriteLine(student1.GetOlder());
         student2.Display();
         Console.WriteLine(student2.GetOlder());
+
+
+
+        Engine engine = new Engine(4, 210);
+        Car car = new Car("Ford", "Fiesta", 2016, engine);
+        car.Drive();
+        car.Stop();
     }
 }
